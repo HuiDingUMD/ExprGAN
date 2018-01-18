@@ -11,6 +11,7 @@ This is our Tensorflow implementation for our AAAI 2018 oral paper: "ExprGAN: Fa
 
 # Citation
 If you use this code for your research, please cite our paper:
+
 @article{ding2017exprgan,
   title={Exprgan: Facial expression editing with controllable expression intensity},
   author={Ding, Hui and Sricharan, Kumar and Chellappa, Rama},
