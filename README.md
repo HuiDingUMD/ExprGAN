@@ -1,5 +1,6 @@
 # ExprGAN
 This is our Tensorflow implementation for our AAAI 2018 oral paper: "ExprGAN: Facial Expression Editing with Controllable Expression Intensity", https://arxiv.org/pdf/1709.03842.pdf
+![alt text](https://github.com/HuiDingUMD/ExprGAN/tree/master/image/
 
 # Train
 1. Download OULU-CASIA dataset and put the images under data folder: http://www.cse.oulu.fi/CMV/Downloads/Oulu-CASIA. split/oulu_anno.pickle contains the split of training and testing images.
