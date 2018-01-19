@@ -3,13 +3,16 @@ This is our Tensorflow implementation for our AAAI 2018 oral paper: "ExprGAN: Fa
 
 # Train
 1. Download OULU-CASIA dataset and put the images under data folder: http://www.cse.oulu.fi/CMV/Downloads/Oulu-CASIA. oulu_anno.pickle contains the split of training and testing images.
-2. Download vgg-face.mat from matconvenet website and put it under utils folder:  http://www.vlfeat.org/matconvnet/pretrained/ 
-3. Run run_oulu.sh, which trains the model in three stages
+2. Download vgg-face.mat from matconvenet website and put it under joint-train/utils folder:  http://www.vlfeat.org/matconvnet/pretrained/ 
+3. To overcome the limited training dataset, the training is consisted of three stages: 
+  a) Go inot train-controller folder to first train the controller module;
+  b) Go into join-train folder for the second and third stage training.
+  Plese see our paper for more training details.
 
 A trained model can be downloaded here: https://drive.google.com/open?id=1bz45QSdS2911-8FDmngGIyd5K4gYimzg
 
 # Test
-1. Run test_oulu.sh
+1. Run joint-train/test_oulu.sh
 
 # Citation
 If you use this code for your research, please cite our paper:
